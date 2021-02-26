@@ -23,6 +23,10 @@ nav ul li a {
 
 .full-footer {
     background-color: #34495e;
+    position: absolute;
+    /*this allows us to place the footer anywhere*/
+    bottom: 0;
+    width: 100%;
 }
 
 .top-footer p {
