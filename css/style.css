@@ -1,28 +1,43 @@
-#topHeader{
-  border-bottom: 1px solid #ebebeb;
+#topHeader {
+    border-bottom: 1px solid #ebebeb;
 }
-#topHeader a{
-  color: #2c3e50;
-  font-weight: 600;
-  font-size: 1.3rem;
+
+#topHeader a {
+    color: #2c3e50;
+    font-weight: 600;
+    font-size: 1.3rem;
 }
-.container-fluid{
-  padding-left: 0px;
-  padding-right: 0px;
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
 }
-nav ul li a{
-  font-size: 1.4rem;
-  font-weight: 600;
+
+nav ul li a {
+    font-size: 1.4rem;
+    font-weight: 600;
 }
+
+
 /* Start Footer */
-.full-footer{
-  background-color:#34495e ;
+
+.full-footer {
+    background-color: #34495e;
 }
-.top-footer p{
-color: white;
+
+.top-footer p {
+    color: white;
 }
-.top-footer a{
-  color: white;
-  font-weight: 600; /*it makes the text bolder*/
-  }
+
+.top-footer a {
+    color: white;
+    font-weight: 600;
+    /*it makes the text bolder*/
+}
+
+.top-footer h3 {
+    color: white;
+}
+
+
 /* End Footer */
