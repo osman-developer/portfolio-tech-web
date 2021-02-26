@@ -14,6 +14,15 @@ nav ul li a{
   font-size: 1.4rem;
   font-weight: 600;
 }
+/* Start Footer */
 .full-footer{
   background-color:#34495e ;
 }
+.top-footer p{
+color: white;
+}
+.top-footer a{
+  color: white;
+  font-weight: 600; /*it makes the text bolder*/
+  }
+/* End Footer */
