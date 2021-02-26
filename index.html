@@ -94,7 +94,9 @@
     </header>
 
     <footer class="full-footer">
-        <div class="container top-footer">
+        <!-- the p-md-4 it is padding of 4 for all devices from medium to large
+      but the p-1 is for all devices but since we have custom p-md so the p-1 will work for xs till md devices -->
+        <div class="container top-footer p-md-4 p-1">
             <div class="row">
                 <!-- since we have 4 parts in bottom so each one will take 3 since screen is divided into 12 parts
         the breakpoint here in md screen, so when it breaks under 768 they will align in a vertical way -->
@@ -137,7 +139,14 @@
                 </div>
             </div>
         </div>
-
+        <div class="container-fluid bottom-footer">
+            <div class="row">
+                <!-- it means on all devices it will take 12 places -->
+                <div class="col-12 text-center">
+                    <p>Copyrights © 2021 -All rights reserved</p>
+                </div>
+            </div>
+        </div>
     </footer>
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 
