@@ -11,8 +11,8 @@
 }
 
 .container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 nav ul li a {
@@ -65,6 +65,7 @@ nav ul li a {
 
 .top-hero-section a {
     color: white;
+    font-weight: 600;
 }
 
 
