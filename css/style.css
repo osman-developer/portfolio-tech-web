@@ -1,3 +1,5 @@
+/* Start Header */
+
 #topHeader {
     border-bottom: 1px solid #ebebeb;
 }
@@ -17,6 +19,9 @@ nav ul li a {
     font-size: 1.5rem;
     font-weight: 600;
 }
+
+
+/* End Header */
 
 
 /* Start Footer */
@@ -49,3 +54,13 @@ nav ul li a {
 
 
 /* End Footer */
+
+
+/* Start Top Section */
+
+.top-hero-section {
+    background-color: #3498db;
+}
+
+
+/* End Top Section */
