@@ -37,6 +37,7 @@
 <!-- xs<576 | 576<sm<768 | 768<md<992 | 992<lg<1200 | 1200<xl -->
 
 <body>
+    <!-- START HEADER -->
     <header>
         <!--the p-1 is a dynamic padding -->
         <div class="p-1" id="topHeader">
@@ -44,7 +45,8 @@
                 <div class="row">
                     <div class="col-12 text-right">
                         <a class="p-1" href="tel:+96111-111111"><i class="fas fa-phone"></i> +11-111111</a>
-                        <a class="p-1" href="mailto:othman@othman.com"><i class="fas fa-envelope"></i> othman@othman.com</a>
+                        <a class="p-1" href="mailto:othman@othman.com"><i class="fas fa-envelope"></i>
+                            othman@othman.com</a>
                     </div>
                 </div>
             </div>
@@ -60,8 +62,8 @@
                     </a>
                     <!-- you wrap the ul in div and give it an id so you can toggle it -->
                     <button data-toggle="collapse" data-target="#navbarToggler" type="button" class="navbar-toggler">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <!--  class="collapse navbar-collapse" -->
                     <div class="collapse navbar-collapse" id="navbarToggler">
                         <ul class="navbar-nav">
@@ -96,7 +98,26 @@
             </div>
         </div>
     </header>
+    <!-- END HEADER -->
 
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h4>Quality - Support - Value</h4>
+                    <h1>Best In Class IT Services</h1>
+                    <h5>It is a Website or an app or graphics, we can develop it it for you at affordable rates.Send us your requirements.</h5>
+                    <br>
+                    <button class="btn btn-primary btn-lg">Get Started</button><a href="#">Check Pricing details ..</a>
+                </div>
+                <div class="col-md-7">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- START FOOTER -->
     <footer class="full-footer">
         <!-- the p-md-4 it is padding of 4 for all devices from medium to large
       but the p-1 is for all devices but since we have custom p-md so the p-1 will work for xs till md devices -->
@@ -152,7 +173,7 @@
             </div>
         </div>
     </footer>
-
+    <!-- END FOOTER -->
 
     <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
