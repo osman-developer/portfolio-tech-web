@@ -25,7 +25,7 @@ nav ul li a {
 }
 
 .bottomimg {
-    width: 220px;
+    width: 210px;
 }
 
 
@@ -88,3 +88,13 @@ nav ul li a {
 
 
 /* End Middle Section */
+
+
+/* START Third Section */
+
+.requirements-section {
+    background-color: #004d80;
+}
+
+
+/* END Third Section */
