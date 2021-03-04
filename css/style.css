@@ -114,5 +114,12 @@ nav ul li a {
     border-radius: 20px 0 0 20px;
 }
 
+.homenewsletter-section .btn {
+    min-height: 50px;
+    border-radius: 0 20px 20px 0;
+    background: #243c4f;
+    color: #fff;
+}
+
 
 /* END Fifth Section */
